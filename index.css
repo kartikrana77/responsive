@@ -55,7 +55,7 @@ nav{
     cursor: pointer;
 }
 
-nav i{
+.ri-menu-line{
     font-size: 1.5vw;
     font-weight: 800;
     display: none;
@@ -131,7 +131,52 @@ nav i{
     width: 100%;
 }
 
-@media (max-width:600px) {
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    width: 220px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 0.007);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0px 10px rgba(0,0,0,0.1);
+    gap: 2vw;
+}
+
+.sidebar li{
+    width: 100%;
+    margin-left: 2vw;
+    margin-top: 1vw;
+    list-style: none;
+    font-weight: 700;
+    font-size: 1.1vw;
+    transition: all 2ms ease-in 1ms;
+}
+.sidebar li:hover{
+    color: crimson;
+    cursor: pointer;
+}
+.sidebar button{
+    margin-left: 1vw ;
+    font-size: 1vw;
+    padding:  0.7vw 1.4vw;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.ri-close-line{
+    font-size: 1.8vw;
+    font-weight: 800;
+    margin-left: 2vw;
+    margin-top: 2vw;
+}
+
+@media (max-width:700px) {
     nav{
         padding: 0 6vw;
         height: 60px;
@@ -147,11 +192,24 @@ nav i{
         display: none;
     }
 
-    nav i{
+    .ri-menu-line{
         display: block;
         font-size: 4.5vw;
     }
 
+    .ri-close-line{
+        font-size: 4.5vw;
+    }
+    .sidebar li{
+        font-size: 4.5vw;
+    }
+    .sidebar{
+        gap: 5vw;
+    }
+    .sidebar button{
+        font-size: 3vw;
+        padding: 2vw 3vw;
+    }
     #b2{
         display: none;
     }
@@ -185,4 +243,10 @@ nav i{
     border-radius: 8px;
     font-weight: 600;
  }
+}
+
+@media (max-width:400px){
+    .sidebar{
+        width: 100%;
+    }
 }

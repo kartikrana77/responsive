@@ -13,7 +13,7 @@
   <body>
     <div class="main">
       <nav>
-        <h2>Yong4Ever</h2>
+        <h2>Young4Ever</h2>
         <ul id="nav-ul">
           <li class="nav-li">Home</li>
           <li class="nav-li">Catagories</li>
@@ -21,7 +21,16 @@
           <li class="nav-li">Help</li>
           <li class="nav-li">Blog</li>
           <button class="b" id="b2">Sign In</button>
-          <i class="ri-menu-line"></i>
+          <i onclick= showSidebar() class="ri-menu-line"></i>
+        </ul>
+        <ul class="sidebar">
+          <i onclick= hideSidebar() class="ri-close-line"></i>
+          <li>Home</li>
+          <li>Catagories</li>
+          <li>Contact</li>
+          <li>Help</li>
+          <li>Blog</li>
+          <button class="b">Sign In</button>
         </ul>
       </nav>
 
@@ -37,5 +46,19 @@
         <div class="right"><img src="img/14449322_5464026.jpg" id="right-img"></div>
       </div>
     </div>
+
+    <script>
+      function showSidebar(){
+        const sidebar = document.querySelector('.sidebar');
+        sidebar.style.display = 'flex';
+      };
+
+      function hideSidebar(){
+        const sidebar = document.querySelector('.sidebar');
+        sidebar.style.display = 'none';
+      }
+
+
+    </script>
   </body>
 </html>
