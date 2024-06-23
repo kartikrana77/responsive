@@ -49,15 +49,15 @@ nav{
     font-size: 1.1vw;
     transition: all 2ms ease-in 1ms;
 }
-.nav-li :hover{
+.nav-li:hover{
     color: crimson;
     cursor: pointer;
 }
-.nav-li a{
+li a{
     text-decoration: none;
     color: black;
 }
-.nav-li:hover{
+li a:hover{
     color: crimson;
     cursor: pointer;
 }
