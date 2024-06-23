@@ -99,63 +99,6 @@ nav{
     position: relative;
 }
 
-.left{
-    height: 100%;
-    width: 55%;
-   padding:  5vw 4vw;
-}
-
-.left h1{
-    font-size: 4.2vw;
-    line-height: 4.6vw;
-}
-
-.left h1 span{
-    color: rgb(101, 168, 212);
-}
-
-.left p{
-    font-size: 1.2vw;
-    font-weight: 600;
-    color: #666;
-    width: 80%;
-    margin-top: 1.5vw;
-    margin-bottom: 3vw;
-}
-.right{
-    height: 100%;
-    width: 45%;
-  
-}
-
-.b{
-    font-size: 1.2vw;
-    padding:  1.1vw 2.1vw;
-    background-color: rgb(101,168,212);
-    color: #fff;
-    border: none;
-    border-radius: 10px;
-    font-weight: 700;
-    transition: all 2ms linear 1ms;
-}
-.b:hover{
-    background-color: rgb(1, 72, 119);
-    color: rgb(248, 194, 18);
-    cursor: pointer;
-}
-
-#b2{
-    font-size: 1vw;
-    padding:  0.7vw 1.4vw;
-    border: none;
-    border-radius: 10px;
-    font-weight: 600;
-}
-#right-img{
-    height: 100%;
-    width: 100%;
-}
-
 .sidebar{
     position: fixed;
     top: 0;
@@ -386,31 +329,7 @@ transition: 200ms;
         height: calc(100% - 60);
         flex-direction: column;
     }
-    .left{
-        width: 100%;
-        height: 47%;
-        padding: 4vw 6vw;
-    }
-    .right{
-        width: 100%;
-        height: 53%;
-    }
-    .left h1{
-        font-size: 10vw;
-        line-height: 11vw;
-    }
-    .left p{
-        font-size: 3vw;
-        width: 90%;
-        margin-top: 5vw;
-    margin-bottom: 6vw;   
- }
- #b1{
-    padding: 4vw 10vw;
-    font-size: 3.5vw;
-    border-radius: 8px;
-    font-weight: 600;
- }
+    
 
  footer{
     padding-top: 6% ;
@@ -567,7 +486,7 @@ transition: 200ms;
     margin-left: 0.3vw;
 }
 .btn-add-bag{
-    background-color: lightgreen;
+    background-color: rgb(66, 174, 207);
     border: none;
     padding: 1.2% 1.5%;
     margin-top: 3%;

@@ -9,7 +9,6 @@ function showSidebar(){
   }
 
 
-
   let bagItems2;
 onLoad();
 
