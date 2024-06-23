@@ -76,7 +76,7 @@ nav{
 }
 
 .bag-item-count{
-    background-color: #f16565;
+    background-color: crimson;
     border-radius: 50%;
     height: 0.7vw;
     width: 0.8vw;
@@ -131,7 +131,7 @@ nav{
 .b{
     font-size: 1.2vw;
     padding:  1.1vw 2.1vw;
-    background-color: rgb(98, 177, 223);
+    background-color: rgb(101,168,212);
     color: #fff;
     border: none;
     border-radius: 10px;
@@ -366,7 +366,7 @@ transition: 200ms;
     }
     
     .bag-item-count{
-        background-color: #f16565;
+        background-color: crimson;
         border-radius: 50%;
         height: 1.5vw;
         width: 1.4vw;
@@ -491,4 +491,88 @@ transition: 200ms;
     .sidebar{
         width: 70%;
     }
+}
+
+
+.items-container{
+    width: 80%;
+    margin: 6% 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+}
+
+.item-container{
+     width: 13vw;
+     margin-top: -4%;
+     margin-left: -1%;
+}
+
+.item-image{
+      width: 100%;
+}
+
+.rating{
+      font-size: 0.7vw;
+      font-weight: 700;
+}
+.company-name{
+    margin-top: 6%;
+    font-size: 0.9vw;
+    font-weight: 700;
+    line-height: 1;
+    color: #282c3f;
+    margin-bottom: 4%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
+.item-name{
+     color: #53535766;
+     font-size: 0.8vw;
+     line-height: 1;
+     margin-bottom: 0;
+     margin-top: 0;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     white-space: nowrap;
+     font-weight: 400;
+     display: block;
+}
+.price{
+    font-size: 0.8vw;
+    line-height: 15px;
+    color: #282c3f;
+    white-space: nowrap;
+    margin-top: 0.5vw;
+}
+.current-price{
+    font-size: 0.8vw;
+    font-weight: 400;
+    color:#282c3f;
+}
+.original-price{
+    text-decoration: line-through;
+    color: #7e818c;
+    font-weight: 400;
+    font-size: 0.6vw;
+}
+.discount{
+    color: #ff905a;
+    font-weight: 400;
+    font-size: 0.6vw;
+    margin-left: 0.3vw;
+}
+.btn-add-bag{
+    background-color: lightgreen;
+    border: none;
+    padding: 1.2% 1.5%;
+    margin-top: 3%;
+    font-size: 1vw;
+    border-radius: 10px;
+    width: 100%;
+    cursor: pointer;
 }
