@@ -318,11 +318,11 @@ transition: 200ms;
 
     .ri-menu-line{
         display: block;
-        font-size: 4.5vw;
+        font-size:5vw;
     }
 
     .ri-close-line{
-        font-size: 4.5vw;
+        font-size: 5vw;
     }
     .sidebar li{
         font-size: 4.5vw;

@@ -394,11 +394,11 @@ transition: 200ms;
 
     .ri-menu-line{
         display: block;
-        font-size: 4.5vw;
+        font-size: 5vw;
     }
 
     .ri-close-line{
-        font-size: 4.5vw;
+        font-size: 5vw;
     }
     .sidebar li{
         font-size: 4.5vw;
@@ -419,7 +419,7 @@ transition: 200ms;
         font-size: 5vw;
         display: flex;
         gap: 3vw;
-        margin-right: 5vw;
+        margin-right: 5.4vw;
         margin-top: 5.7%;
     }
     
@@ -429,15 +429,15 @@ transition: 200ms;
         height: 1.5vw;
         width: 1.4vw;
         color: #fff;
-        font-size: 1.6vw;
+        font-size: 1.8vw;
         position: relative;
         display: flex;
         justify-content: space-around;
         text-align: center;
         font-weight: 700;
         cursor: pointer;
-        top: -4vw;
-        left: 2.6vw;
+        top: -5vw;
+        left: 2.8vw;
     }
     
     .content{
@@ -533,7 +533,7 @@ transition: 200ms;
 
 .poster{
     width: 97%;
-    height: 40vw;
+    height: 55vw;
     border-radius: 20px;
     margin-top: 2%;
     margin-left: 1.4%;
