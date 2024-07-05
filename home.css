@@ -343,8 +343,37 @@ transition: 200ms;
     cursor: pointer;
 }
 
+.poster{
+    width: 80%;
+    height: 25vw;
+    border-radius: 20px;
+    margin-top: 2%;
+    margin-left: 10%;
+    background-size: 100% 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    animation: change 30s steps(1) forwards infinite;
+}
 
-
+@keyframes change {
+    0%{
+        background-image: url("https://graphicsfamily.com/wp-content/uploads/edd/2021/07/Professional-E-Commerce-Shoes-Banner-Design-1536x864.jpg");
+    }
+    20%{
+        background-image: url("https://img.freepik.com/premium-psd/new-collection-shoes-exclusive-social-media-facebook-cover-page-banner-template_220443-927.jpg");
+    }
+    40%{
+        background-image: url("https://static.vecteezy.com/system/resources/previews/002/078/703/original/sale-banner-for-online-shopping-on-smartphone-free-vector.jpg");
+    }
+    60%{
+        background-image: url("https://static.vecteezy.com/system/resources/previews/007/153/472/original/shopping-online-on-smartphone-and-new-buy-sale-promotion-pink-backgroud-for-banner-market-ecommerce-women-concept-free-vector.jpg");
+    }
+    80%{
+        background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/1400/709111100274049.5f0c4e19d4b16.jpg');
+    }
+    100%{
+        background-image: url('https://i.pinimg.com/originals/ff/78/e0/ff78e06aceea35b22c3da0c4023034cb.png');
+    }
+}
 @media (max-width:700px) {
         
     
@@ -387,11 +416,11 @@ transition: 200ms;
     
     .my-icon{
         width: 6vw;
-        font-size: 4vw;
+        font-size: 5vw;
         display: flex;
         gap: 3vw;
-        margin-right: 4vw;
-        margin-top: 4%;
+        margin-right: 5vw;
+        margin-top: 5.7%;
     }
     
     .bag-item-count{
@@ -500,6 +529,15 @@ transition: 200ms;
         justify-content: center;
         align-items: center;
         
+}
+
+.poster{
+    width: 97%;
+    height: 40vw;
+    border-radius: 20px;
+    margin-top: 2%;
+    margin-left: 1.4%;
+    background-size: 100% 100%;
 }
 
 .item-container{
